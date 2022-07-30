@@ -1,0 +1,40 @@
+body {
+    background-color: hsl(220, 15%, 55%);
+    font-family: 'Outfit', sans-serif;
+}
+
+.qrcode,
+.blob {
+
+    height: 60vh;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.qrcode {
+    height: 100%;
+    width: 100%;
+
+}
+
+.text,
+.scan {
+    margin: 5px;
+    padding-top: 3px;
+}
+
+.text {
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.scan {
+    font-size: 13px;
+    font-weight: 400;
+    color: hsl(211, 14%, 61%);
+}
+
+.container {
+    height: 100vh;
+    flex-direction: column;
+}
